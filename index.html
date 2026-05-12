@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmolLM Fine-Tuned Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Fine-Tuned SmolLM2 Assignment</h1>
+        <p>This is the frontend deployed on GitHub Pages. It interacts with the backend running on Hugging Face Spaces.</p>
+        
+        <!-- This script tag loads the Gradio web component -->
+        <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.16.0/gradio.js"></script>
+        
+        <!-- This embeds your Hugging Face space -->
+        <gradio-app src="https://mohanadeladl-smollm2-assignment.hf.space"></gradio-app>
+    </div>
+</body>
+</html>
